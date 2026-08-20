@@ -410,3 +410,11 @@ body {
 .btn-search:hover {
     background-color: #e31c5f !important;
 }
+.filter {
+    text-decoration: none;
+    color: #717171;
+}
+
+.filter:hover {
+    color: #222;
+}
