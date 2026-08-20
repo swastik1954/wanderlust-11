@@ -1,0 +1,412 @@
+.navbar{
+    height:5rem;
+    background-color: #f3f3f3;
+}
+.fa-compass{
+    font-size: 2rem;
+    color: #f9212f;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+/* Footer */
+
+.f-info {
+    background-color: #ebebeb;
+    height: 8rem;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.f-info-socials,
+.f-info-brand,
+.f-info-links {
+    width: 100%;
+}
+
+.f-info-socials i {
+    font-size: 1.5rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.f-info-socials i:hover {
+    color: #fe424d;
+}
+
+.f-info-brand {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #444;
+    margin: 0.4rem 0;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222;
+    margin: 0 1rem;
+    transition: 0.3s;
+}
+
+.f-info-links a:hover {
+    color: #fe424d;
+    text-decoration: underline;
+}
+ 
+/* Cards */
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+.listing-card:hover {
+    transform: translateY(-8px);
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    height: 18rem;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem 0 !important;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #222;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.listing-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hover Effect */
+
+.card-img-overlay {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* Button */
+
+.btn-dark {
+    border-radius: 0.6rem;
+    padding: 0.5rem 1.2rem;
+}
+
+/* Price */
+
+.price {
+    font-weight: bold;
+    color: #ff385c;
+}
+
+/* New Listing Page */
+
+.new-listing-card{
+    background: #fff;
+    padding: 2rem;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    margin-bottom: 3rem;
+}
+
+.new-listing-card h2{
+    font-weight: 700;
+    color: #222;
+}
+
+.form-label{
+    font-weight: 600;
+    color: #444;
+}
+
+.form-control{
+    border-radius: 10px;
+    padding: 0.75rem;
+}
+
+.form-control:focus{
+    border-color: #ff385c;
+    box-shadow: 0 0 0 0.2rem rgba(255,56,92,0.2);
+}
+
+.add-btn{
+    background-color: #fe424d !important;
+    color: white !important;
+    border: none;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.add-btn:hover{
+    background-color: #dc3545 !important;
+    color: white !important;
+    transform: translateY(-2px);
+}
+
+/* Show Page */
+/* Show Page */
+
+.show-card{
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.show-img{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.show-card .card-body{
+    padding: 1rem 0;
+}
+
+.show-card p{
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.show-card strong{
+    color: #444;
+}
+
+.btn-warning{
+    color: white;
+    font-weight: 600;
+}
+
+.btn-danger{
+    font-weight: 600;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ /* ================= Reviews ================= */
+
+.review-heading{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #222;
+    margin: 2rem 0 1.5rem;
+}
+
+.review-card{
+    border: 1px solid #dddddd;
+    border-radius: 18px;
+    padding: 1.4rem;
+    margin-bottom: 1.5rem;
+    background: #fff;
+    transition: all 0.25s ease;
+}
+
+.review-card:hover{
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    transform: translateY(-3px);
+}
+
+.review-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.review-user{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #222;
+    margin: 0;
+}
+
+.review-rating{
+    background: #ff385c;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.review-comment{
+    color: #4b4b4b;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.review-date{
+    color: #717171;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+}
+
+.review-card hr{
+    margin: 1rem 0;
+    border-color: #efefef;
+}
+#map {
+    height: 400px;
+    width: 100vh;
+   
+}
+
+#filters {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.8rem 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1.5rem;
+}
+
+#filters::-webkit-scrollbar {
+    display: none;
+}
+
+.filter {
+    min-width: 65px;
+    text-align: center;
+    color: #717171;
+    cursor: pointer;
+    font-size: 0.72rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+
+.filter i {
+    display: block;
+    font-size: 1rem;        /* smaller icons */
+    margin-bottom: 0.35rem;
+}
+
+.filter span {
+    font-size: 0.72rem;
+}
+
+.filter:hover {
+    color: #222;
+}
+
+.filter.active {
+    color: #222;
+}
+
+.filter.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background: #222;
+}
+
+.tax-info {
+    display: none;
+}
+
+.tax-info.show {
+    display: inline;
+}
+
+.tax-toggle {
+    border: 1px solid #ddd;
+    border-radius: 1.5rem;
+    padding: 0.6rem 1rem;
+    height: auto;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.tax-toggle .form-check-input {
+    width: 2.3rem;
+    height: 1.3rem;
+    margin-top: 0.1rem;
+}
+
+.tax-toggle .form-check-label {
+    font-size: 0.9rem;
+}
+
+
+.navbar-nav form {
+    display: flex !important;
+    align-items: center !important;
+    width: 350px !important;
+}
+
+.navbar-nav .form-control {
+    border: 1px solid #ddd !important;
+    border-radius: 25px !important;
+    padding: 0.65rem 1rem !important;
+    font-size: 0.9rem !important;
+    box-shadow: none !important;
+}
+
+.navbar-nav .form-control:focus {
+    border-color: #222 !important;
+    box-shadow: none !important;
+}
+
+.btn-search {
+    background-color: #ff385c !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.6rem 1.2rem !important;
+
+    display: inline-flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+
+    white-space: nowrap !important;
+}
+
+.btn-search:hover {
+    background-color: #e31c5f !important;
+}
